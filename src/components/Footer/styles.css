@@ -1,0 +1,40 @@
+#main-footer {
+  background-color: #222;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* remove later */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#main-footer p {
+  color: #fff;
+  font-size: 18px;
+}
+
+#main-footer p a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 5px;
+  transition: all .2s;
+}
+
+#main-footer p a:hover {
+  color: crimson;
+}
+
+#main-footer img {
+  display: block;
+  opacity: .9;
+  transition: all .2s;
+}
+
+#main-footer img:hover {
+  opacity: 1;
+}
