@@ -5,12 +5,6 @@
   font-size: 20px;
   padding: 10px;
   border-radius: 10px;
-  display: none;
-
-  /* remove later */
-  top: 100px;
-  left: 100px;
-  display: block;
 }
 
 #box li {
