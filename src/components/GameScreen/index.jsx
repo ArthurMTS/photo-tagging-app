@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import { Box } from '../Box';
+import { MenuBox } from '../MenuBox';
 
 import gameImage from '../../assets/where-s-waldo.jpg';
 
 import './styles.css';
 
-export function Picture() {
+export function GameScreen() {
   const [show, setShow] = useState(false);
   const [screenX, setScreenX] = useState(0);
   const [screenY, setScreenY] = useState(0);
@@ -27,7 +27,7 @@ export function Picture() {
         alt='game screen'
         onClick={handleClick}
       />
-      <Box
+      <MenuBox
         show={show}
         screenX={screenX}
         screenY={screenY}

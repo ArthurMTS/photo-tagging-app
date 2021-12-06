@@ -1,6 +1,6 @@
 import './styles.css';
 
-export function Box({ show, screenX, screenY }) {
+export function MenuBox({ show, screenX, screenY }) {
 
   return (
     <div
